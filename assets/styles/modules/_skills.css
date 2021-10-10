@@ -1,0 +1,76 @@
+.skills {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background: $skillsBG;
+
+    &__shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        fill: $darkBrown;
+    }
+
+    &__shapes svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 41px;
+    }
+
+    &__flexContainer {
+        display: flex;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+
+        &__text {
+            font-size: 1rem;
+        }
+
+        &__picture2 img {
+            width: 239px;
+            margin: 40px 0 45px 0px;
+            border: none;
+        }
+        
+        &__picture img {
+            width: 219px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+    }
+
+
+    &__flexContainer > div {
+        background: white;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        border: 2px solid #bbb0b0;
+    }
+
+    &__text {
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    &__text h1 {
+        font-size: 2rem;
+    }
+
+    &__text p {
+        font-size: 1.5rem;
+    }
+}

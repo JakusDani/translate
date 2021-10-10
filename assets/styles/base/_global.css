@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=IBM+Plex+Sans+Condensed:wght@400;600&family=Trirong:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: $darkBrown;
+}
+
+h1 {
+    color: $darkBlue;
+    font-family: 'Trirong', serif;
+}
+
+p {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* font-family: 'Birthstone', cursive;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'Trirong', serif; */
