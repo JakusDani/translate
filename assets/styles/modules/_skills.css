@@ -3,6 +3,7 @@
     height: 70vh;
     width: 100%;
     background: $skillsBG;
+    min-height: 745px;
 
     &__shapes {
         position: absolute;

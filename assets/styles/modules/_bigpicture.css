@@ -38,6 +38,7 @@
         background: #00000052;
         /* opacity: .5; */
         padding: 30px;
+        min-width: 864px;
         
         /* @mixin tablet {
             color: red;
